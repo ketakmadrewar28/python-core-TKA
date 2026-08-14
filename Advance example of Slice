@@ -1,0 +1,45 @@
+# 26. Skip characters from the middle
+print(name[1:5:2])
+
+# Start -> index 1 = 'a'
+# Stop before index 5
+# Step = 2
+# Characters: a, e
+# Output: ae
+
+
+# 27. Reverse with step -2
+print(name[5::-2])
+
+# Start at index 5 -> 'h'
+# Move backwards by 2
+# Characters: h, e, a
+# Output: hea
+
+
+# 28. Reverse a selected portion
+print(name[4:1:-1])
+
+# Start at index 4 -> 's'
+# Move backwards
+# Stop before index 1
+# Characters: s, e, n
+# Output: sen
+
+
+# 29. Take alternate characters from index 1
+print(name[1::2])
+
+# Start at index 1 -> 'a'
+# Move forward by 2
+# Characters: a, e, h
+# Output: aeh
+
+
+# 30. Take alternate characters from the end
+print(name[-1::-2])
+
+# Start at -1 -> 'h'
+# Move backwards by 2
+# Characters: h, e, a
+# Output: hea
